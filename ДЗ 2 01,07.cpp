@@ -271,8 +271,7 @@ void List<T>::DelRange(int pos1, int pos2)
 		current = next;
 		Count--;
 	}
-
-	if (Count == 0)
+		if (Count == 0)
 		Head = Tail = nullptr;
 }
 
